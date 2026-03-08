@@ -1,1 +1,115 @@
+# Task-1: Data Immersion & Wrangling (Titanic Dataset)
+
+## 📌 Project Overview
+
+This project is part of the **Data Analytics Internship Program**.
+The goal of Task-1 is to understand a dataset, identify data quality issues, clean the data, and prepare an **analysis-ready dataset**.
+
+For this task, the **Titanic Dataset** was used to practice data profiling, cleaning, and transformation using Python and Pandas.
+
+---
+
+## 🎯 Objective
+
+The main objectives of this project are:
+
+* Understand the dataset and its structure
+* Identify data quality issues such as missing values and duplicates
+* Perform data cleaning and transformation
+* Create new useful features
+* Produce a clean dataset ready for analysis
+
+---
+
+## 📊 Dataset Information
+
+**Dataset Name:** Titanic Dataset
+**Description:** Contains information about passengers on the Titanic, including demographic details, ticket information, and survival status.
+
+### Dataset Columns
+
+| Column      | Description                       |
+| ----------- | --------------------------------- |
+| PassengerId | Unique passenger identifier       |
+| Survived    | Survival status (0 = No, 1 = Yes) |
+| Pclass      | Passenger ticket class            |
+| Name        | Passenger name                    |
+| Sex         | Gender of passenger               |
+| Age         | Passenger age                     |
+| SibSp       | Number of siblings/spouses aboard |
+| Parch       | Number of parents/children aboard |
+| Ticket      | Ticket number                     |
+| Fare        | Passenger ticket fare             |
+| Cabin       | Cabin number                      |
+| Embarked    | Port of embarkation               |
+
+---
+
+## 🔎 Data Quality Assessment
+
+During the data profiling stage, the following issues were identified:
+
+* Missing values in **Age**, **Cabin**, and **Embarked** columns
+* Some columns required transformation for analysis
+* Dataset required feature engineering for better insights
+
+---
+
+## 🧹 Data Cleaning & Transformation
+
+The following steps were performed:
+
+1. Handled missing values in **Age** using the mean value
+2. Filled missing values in **Embarked** with the most frequent value
+3. Removed the **Cabin** column due to excessive missing data
+4. Checked and removed duplicate records
+5. Converted categorical column **Sex** into numeric format
+6. Created a new feature **FamilySize**
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* Pandas
+* Google Colab / Jupyter Notebook
+* GitHub
+
+---
+
+## 📁 Project Files
+
+```
+Task1-Data-Wrangling
+│
+├── Titanic-Dataset.csv
+├── cleaned_titanic_dataset.csv
+├── data_cleaning.ipynb
+└── data_dictionary.md
+```
+
+---
+
+## 📈 Final Output
+
+The final output of this task is a **cleaned and analysis-ready dataset** which can be used for:
+
+* Exploratory Data Analysis (EDA)
+* Visualization
+* Machine Learning models
+
+---
+
+## 🎥 Project Walkthrough Video
+
+A detailed explanation of the dataset, data issues, and cleaning process is available in the LinkedIn video.
+
+*(Add your LinkedIn video link here)*
+
+---
+
+## 👨‍💻 Author
+
+**Praveen Mummidi**
+Data Analytics Intern
 
